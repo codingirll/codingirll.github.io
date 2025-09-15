@@ -41,6 +41,11 @@
         nextText: 'NEXT',
         crossChapter: true
       },
+      // 强制走最新
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
+      }
     }                                 
   </script>
 
@@ -52,6 +57,7 @@
   <script src="/assets/js/zoom-image.js"></script>
   <script src="/assets/js/prism-bash.js"></script>
   <script src="/assets/js/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@1.0.0/lib/docsify.min.js"></script>
 </body>
 
 </html>
